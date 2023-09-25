@@ -17,7 +17,7 @@
   }
 
   .container p {
-    margin-left: 250px;
+    margin-left: 150px;
     font-size: 100px !important;
   }
 
@@ -90,12 +90,12 @@
   /* Card */
   .card {
     width: 100%;
-    max-width: 800px;
+    max-width: 1000px;
     margin: 10px 0;
     padding-top: 30px;
     padding-bottom: 30px;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding-left: 100px;
+    padding-right: 100px;
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
@@ -120,13 +120,13 @@
     text-align: center;
     margin-left: 20px;
     width: 925px;
-    height: 500px;
+    height: 800px;
     margin-right: 20px;
   }
 
   #myChart {
     width: 100% !important;
-    height: 400px !important;
+    height: 700px !important;
   }
 
   .chart-container {
@@ -151,7 +151,7 @@
     width: 1000px;
     height: 400px;
     margin-top: 30px;
-    margin-left: 200px;
+    margin-left: 250px;
     padding: 20px;
     background: transparent;
     border-radius: 20px;
@@ -189,24 +189,25 @@
 
   .programming-stats .add-profile {
     position: absolute;
-    top: 20px;
+    top: 180px;
     margin-left: 350px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
-    top: 75px;
+    top: 230px;
     margin-right: -1500px;
     z-index: 1;
+    font-size: medium;
   }
 
   .circle {
     margin-bottom: -500px;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
-    background-color: #303031;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -214,7 +215,7 @@
   }
 
   .plus-icon {
-    font-size: 24px;
-    color: #fff;
+    font-size: 30px;
+    color: #000000;
   }
 }
