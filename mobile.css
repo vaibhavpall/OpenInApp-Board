@@ -188,14 +188,14 @@
   .programming-stats .add-profile {
     position: absolute;
     top: 180px;
-    margin-left: 350px;
+    margin-left: 900px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
     top: 230px;
-    margin-right: -1500px;
+    margin-right: -900px;
     z-index: 1;
     font-size: medium;
   }
