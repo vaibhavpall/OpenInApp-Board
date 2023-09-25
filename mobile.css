@@ -15,7 +15,7 @@
   }
 
   .container p {
-    margin-left: 150px;
+    margin-left: 0px;
     font-size: 100px !important;
   }
 
@@ -41,7 +41,7 @@
 
   li {
     display: inline-block;
-    margin: 0 100px;
+    margin: 0 90px;
     font-size: 20px !important;
     box-sizing: border-box;
     vertical-align: middle;
@@ -188,14 +188,14 @@
   .programming-stats .add-profile {
     position: absolute;
     top: 180px;
-    margin-left: 900px;
+    margin-left: 750px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
     top: 230px;
-    margin-right: -900px;
+    margin-right: -750px;
     z-index: 1;
     font-size: medium;
   }
