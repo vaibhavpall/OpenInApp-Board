@@ -1,6 +1,4 @@
-
-/* Mobile Screen */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (min-width: 320px) {
   html {
     scroll-behavior: smooth;
   }

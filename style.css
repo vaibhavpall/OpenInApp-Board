@@ -278,33 +278,9 @@ box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
     font-weight: 700;
     color: #464646;
   }
-
-  .programming-stats2 {
-    font-family: "Rubik", sans-serif;
-    display: inline-block;
-    vertical-align: top;
-    box-shadow: 0 4px 12px -2px rgba(0, 0, 0, 0.3);
-    border-radius: 20px;
-    color: #023047;
-    transition: all 400ms ease;
-    width: 1000px;
-    height: 200px;
-    padding-bottom: 20px;
-    padding-left: 20px;
-    margin-left: 88px;
-    margin-right: 35px;
-    font-size: x-large;
-    font-weight: 900;
-    color: black;
-  }
-  
-  .programming-stats2:hover {
-    transform: scale(1.02);
-    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
-  }
   
   /* Cemtered Content of C2 */
-  .programming-stats2:nth-child(2) {
+  .programming-stats:nth-child(2) {
     display: flex;
     flex-direction: column;
     align-items: center;
