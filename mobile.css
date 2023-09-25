@@ -10,12 +10,13 @@
 
   /* Container */
   .container {
+    margin-right: -100px;
     margin-top: 100px;
     font-size: 20px;
   }
 
   .container p {
-    margin-left: 0px;
+    margin-left: 100px;
     font-size: 100px !important;
   }
 
@@ -186,15 +187,15 @@
 
   .programming-stats .add-profile {
     position: absolute;
-    top: 380px;
-    margin-left: 250px;
+    top: 340px;
+    margin-left: 350px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
-    top: 430px;
-    margin-right: -250px;
+    top: 390px;
+    margin-right: -350px;
     z-index: 1;
     font-size: medium;
   }
