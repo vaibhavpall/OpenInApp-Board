@@ -147,10 +147,9 @@ li:hover {
 
 .programming-stats {
   width: 100%;
-  width: 950px;
-  height: 400px;
-  margin-top: 30px;
-  margin-left: -210px;
+  max-width: 500px;
+  height: auto;
+  margin: 0 auto;
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 20px;
@@ -191,6 +190,11 @@ li:hover {
 .add-profile {
   text-decoration: none;
   color: #333;
+  display: block; 
+  width: 100%; 
+  max-width: 200px; 
+  margin: 0 auto; 
+  margin-top: 10px; /
 }
 
 .circle {
