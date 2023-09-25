@@ -48,7 +48,7 @@ ul {
 li {
   display: inline-block;
   margin: 0 2px;
-  font-size: 20px;
+  font-size: 20px !important;
   box-sizing: border-box;
   vertical-align: middle;
   transition: 0.5s;
