@@ -38,7 +38,7 @@
     margin: 0;
     padding: 0;
     text-align: center;
-    margin-left: 325px;
+    margin-left: 280px;
   }
 
   li {
@@ -92,7 +92,10 @@
     width: 100%;
     max-width: 800px;
     margin: 10px 0;
-    padding: 20px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 150px;
+    padding-right: 150px;
     border: 1px solid #ccc;
     box-sizing: border-box;
   }
@@ -118,6 +121,7 @@
     margin-left: 20px;
     width: 925px;
     height: 500px;
+    margin-left: 10px;
   }
 
   #myChart {
