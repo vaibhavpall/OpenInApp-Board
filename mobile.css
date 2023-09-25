@@ -16,7 +16,7 @@
   }
 
   .container p {
-    margin-left: 100px;
+    margin-left: 00px;
     font-size: 100px !important;
   }
 
@@ -187,14 +187,14 @@
 
   .programming-stats .add-profile {
     position: absolute;
-    top: 340px;
+    top: 370px;
     margin-left: 350px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
-    top: 390px;
+    top: 420px;
     margin-right: -350px;
     z-index: 1;
     font-size: medium;
