@@ -25,7 +25,7 @@
     margin-left: 10px;
     margin-right: 10px;
     width: 90%;
-    height: 50vh;
+    height: 45vh;
     border-radius: 20px;
     color: #fff;
     background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
@@ -186,14 +186,14 @@
 
   .programming-stats .add-profile {
     position: absolute;
-    top: 350px;
+    top: 380px;
     margin-left: 250px;
     z-index: 1; 
   }
 
   .chart-container p {
     position: absolute;
-    top: 400px;
+    top: 430px;
     margin-right: -250px;
     z-index: 1;
     font-size: medium;
