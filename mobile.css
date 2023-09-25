@@ -1,28 +1,36 @@
 @media (max-width: 768px) {
-    html{
-        scroll-behavior: smooth;
-    }
-    body{
-        scroll-behavior: smooth;
-        background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);  
-    }
+   
+/* Mobile CSS */
 
-/* Vertical Nav Bar */
+/* Reset some styles for mobile */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+}
+
+/* Container */
 .container {
-  margin-top: 20px;
-  font-size: 16px;
+  margin-top: 100px;
+  font-size: 20px;
 }
 
 .container p {
-  margin-left: 10px;
-  font-size: 18px;
+  margin-left: 150px;
+  font-size: 24px;
 }
 
+/* Vertical Navbar */
 nav {
   position: sticky;
   margin-top: 0px;
   margin-left: 10px;
-  margin-right: 10px;
   width: 90%;
   height: 80vh;
   border-radius: 20px;
@@ -40,7 +48,7 @@ ul {
 li {
   display: inline-block;
   margin: 0 2px;
-  font-size: 18px;
+  font-size: 20px;
   box-sizing: border-box;
   vertical-align: middle;
   transition: 0.5s;
@@ -55,33 +63,41 @@ li:hover {
   display: none;
 }
 
-/* Horizontal Navbar + Cards */
+/* Container 2 (Card Container and other content) */
 .container2 {
   margin-top: 50px;
-  margin-left: 0; /* Remove the left margin */
-  margin-right: 0; /* Remove the right margin */
-  padding: 0 10px; 
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-sizing: border-box;
 }
 
+/* Horizontal Navbar (Optional: You can keep it hidden on mobile) */
 .horizontal-navbar {
   display: none;
 }
 
+/* Card Container */
 .card-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  padding: 0; /* Add some horizontal padding */
+  width: 100%;
 }
 
+/* Card */
 .card {
   width: 100%;
-  margin: 10px auto;
+  max-width: 400px;
+  margin: 10px 0;
   padding: 20px;
   border: 1px solid #ccc;
-  box-sizing: border-box; /* Include padding and border in width calculation */
-  max-width: 400px;
+  box-sizing: border-box;
 }
 
 .card p {
@@ -102,13 +118,14 @@ li:hover {
 /* Bar Graph */
 .bar-graph {
   text-align: center;
-  margin: 15px auto;
-  max-width: 100%;
+  margin-left: 20px;
+  width: 800px;
+  height: 500px;
 }
 
 #myChart {
-  max-width: 100%;
-  height: auto;
+  width: 100% !important;
+  height: 400px !important;
 }
 
 .chart-container {
@@ -130,10 +147,10 @@ li:hover {
 
 .programming-stats {
   width: 100%;
-  max-width: 100%;
-  height: auto;
+  width: 950px;
+  height: 400px;
   margin-top: 30px;
-  margin-left: -10px;
+  margin-left: -210px;
   padding: 20px;
   background-color: #f0f0f0;
   border-radius: 20px;
@@ -156,7 +173,7 @@ li:hover {
 }
 
 .details ul {
-  padding: 20px;
+  padding: 50px;
   list-style-type: none;
   text-align: left;
 }
@@ -166,8 +183,9 @@ li:hover {
 }
 
 .my-chart {
-  max-width: 100%;
-  height: auto;
+  margin-right: -750px;
+  width: 300px !important;
+  height: 300px !important;
 }
 
 .add-profile {
@@ -190,5 +208,209 @@ li:hover {
   font-size: 24px;
   color: #fff;
 }
+}
+/* Small Screen */
+@media (max-width: 768px) {
+  html {
+    scroll-behavior: smooth;
+  }
 
+  body {
+    scroll-behavior: smooth;
+    background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+  }
+
+  /* Container */
+  .container {
+    margin-top: 100px;
+    font-size: 20px;
+  }
+
+  .container p {
+    margin-left: 250px;
+    font-size: 24px !important;
+  }
+
+  nav {
+    position: sticky;
+    margin-top: 0px;
+    margin-left: 50px;
+    margin-right: -100px;
+    width: 90%;
+    height: 80vh;
+    border-radius: 20px;
+    color: #fff;
+    background: linear-gradient(180deg, #4285F4 0%, #3C83F9 100%);
+  }
+
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  li {
+    display: inline-block;
+    margin: 0 2px;
+    font-size: 20px !important;
+    box-sizing: border-box;
+    vertical-align: middle;
+    transition: 0.5s;
+  }
+
+  li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 16px -7px rgba(0, 0, 0, 0.3);
+  }
+
+  .logout {
+    display: none;
+  }
+
+  /* Container 2 (Card Container and other content) */
+  .container2 {
+    margin-top: 50px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+  /* Horizontal Navbar (Optional: You can keep it hidden on mobile) */
+  .horizontal-navbar {
+    display: none;
+  }
+
+  /* Card Container */
+  .card-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+  }
+
+  /* Card */
+  .card {
+    width: 100%;
+    max-width: 400px;
+    margin: 10px 0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+
+  .card p {
+    font-size: 18px;
+  }
+
+  .card h3 {
+    font-size: 24px;
+  }
+
+  .card .fas.fa-tasks {
+    height: 60px !important;
+    width: 60px !important;
+    border-radius: 60px !important;
+    padding-top: 20px !important;
+  }
+
+  /* Bar Graph */
+  .bar-graph {
+    text-align: center;
+    margin-left: 20px;
+    width: 800px;
+    height: 500px;
+  }
+
+  #myChart {
+    width: 100% !important;
+    height: 400px !important;
+  }
+
+  .chart-container {
+    margin: 20px 0;
+  }
+
+  .bar-graph .chartjs-render-monitor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Donut & Profile */
+  .main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .programming-stats {
+    width: 100%;
+    width: 950px;
+    height: 400px;
+    margin-top: 30px;
+    margin-left: -210px;
+    padding: 20px;
+    background-color: #f0f0f0;
+    border-radius: 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+
+  .chart-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .details {
+    text-align: left;
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  .details ul {
+    padding: 50px;
+    list-style-type: none;
+    text-align: left;
+  }
+
+  .details ul li {
+    margin-bottom: 5px;
+  }
+
+  .my-chart {
+    margin-right: -750px;
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  .add-profile {
+    text-decoration: none;
+    color: #333;
+  }
+
+  .circle {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #007bff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .plus-icon {
+    font-size: 24px;
+    color: #fff;
+  }
 }
